@@ -1,0 +1,195 @@
+body{
+   font-family: 'Quicksand', sans-serif;
+   margin: 0;
+   padding: 0;
+   background: #f0f0f0;
+}
+
+.jumbotron{
+   font-style: 25px;
+   padding: 15px;
+   background-color: #E6E6E6;
+   text-align: center;
+   color: #333;
+}
+
+nav li{
+   display: inline;
+   list-style-type: none;
+}
+
+nav{
+   background-color: #333;
+   padding: 2px;
+   position: sticky;
+   top: 0;
+   z-index: 1;
+}
+
+nav a{
+   font-size: 18px;
+   text-decoration: none;
+   color: #fff;
+   padding: 19px 10px;
+}
+
+nav a:hover {
+   background-color: #fff;
+   color: #333;
+}
+
+header{
+   display: inline;
+}
+
+main {
+   display: flex;
+   padding: 20px;
+}
+
+.content {
+   max-width: 1500px;
+   float: left;
+}
+
+aside {
+   height: 438px;
+   position: sticky;
+   top: 55px;
+   float: right;
+   padding-left: 20px;
+   max-width: 500px;
+}
+
+.active {
+   background-color: #fff;
+   color: #333;
+}
+
+@media screen and (max-width: 2800px){
+   aside{
+      width: 25%;
+   }
+   .content{
+      width: 75%;
+   }
+}
+
+@media screen and (max-width: 1500px){
+   aside{
+      width: 30%;
+   }
+   .content{
+      width: 70%;
+   }
+}
+
+@media screen and (max-width: 1280px){
+   aside{
+      width: 35%;
+   }
+   .content{
+      width: 65%;
+   }
+}
+
+@media screen and (max-width: 1110px){
+   aside{
+      width: 40%;
+   }
+   .content{
+      width: 60%;
+   }
+}
+
+@media screen and (max-width: 1000px) {
+   aside {
+      width: 100%;
+      position: relative;
+      top: 0;
+      max-width: 1000px;
+   }
+   .content {
+      width: 100%;
+   }
+
+   main{
+      display: inline;
+   }
+}
+
+@media screen and (max-width: 600px) {
+   nav li{
+      display: block;
+      list-style-type: none;
+      margin: 10px 0px;
+   }
+
+   nav{
+      background-color: #333;
+      padding: 2px;
+      position: relative;
+      top: 0;
+      z-index: 1;
+   }
+
+   nav a{
+      font-size: 18px;
+      text-decoration: none;
+      color: #fff;
+      padding: 5px;
+   }
+
+   nav a:hover {
+      background-color: #fff;
+      color: #333;
+   }
+}
+
+footer {
+   padding: 20px;
+   color: white;
+   background-color: #333;
+   text-align: center;
+   font-weight: bold;
+   margin-top: 20px;
+}
+
+.profile header {
+   text-align: center;
+}
+
+h2 {
+   color: #333;
+}
+ 
+h3 {
+   color: #333;
+}
+
+.featured-image {
+   width: 100%;
+   max-height: 300px;
+   object-fit: cover;
+   object-position: center;
+}
+
+.profile img{
+   width: 200px;
+}
+
+.card{
+   border-radius: 5px;
+   box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+   padding: 20px;
+   margin-top: 20px;
+   background: #fff;
+}
+
+.clear{
+   clear: both;
+}
+
+table {
+   text-align: left;
+}
