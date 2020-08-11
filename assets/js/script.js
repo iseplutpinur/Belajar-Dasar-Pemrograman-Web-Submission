@@ -40,4 +40,6 @@ function showNav(menu, active){
 	let y = document.getElementById(menu, active);
 	nav[active].setAttribute('class', 'active');
 	y.removeAttribute('style');
+	document.title = nav[active].text + " | Tentang Saya"
+	console.log();
 }

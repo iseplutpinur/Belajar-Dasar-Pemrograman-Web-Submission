@@ -159,11 +159,12 @@ footer {
    text-align: center;
 }
 
-h2 {
+article h2 {
    color: #333;
+   text-align: center;
 }
  
-h3 {
+article h3 {
    color: #333;
 }
 
